@@ -20,7 +20,7 @@ def monopoly_with_third_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
-    monopoly={:railroads =>{:pieces => 4, :rent_in_dollars => {:key =>"", :key1 =>"", :key2 =>"", :key3 =>""},:names => {:railroad =>"", :railroad1 =>"", :railroad2 =>"", :railroad3 =>"" }}}
+    monopoly={:railroads =>{:pieces => 4, :rent_in_dollars => {:key =>"", :key1 =>"", :key2 =>"", :key3 =>""},:names => {:railroad =>"", :railroad1 =>"", :railroad2 =>"", :railroad3 =>"" },:one_piece_owned => ""}}
 end
 
 def monopoly_with_fourth_tier
